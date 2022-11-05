@@ -1,0 +1,154 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    /* border: 3px solid red; */
+    display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.leftheader {
+    flex-basis: 47%;
+    text-align: right;
+    /* border: 3px solid red; */
+    margin-right: 1rem;
+}
+
+.rightheader {
+    flex-basis: 60%;
+    margin-top: 4rem;
+    padding-left: 0.3rem;
+}
+
+.rightheader h1 {
+    margin: 0;
+}
+
+.rightheader p {
+    margin-top: -0.5rem;
+}
+
+
+
+.seperate {
+    margin: 0 4rem 0.5rem 4rem;
+    border-bottom: 2px solid #DA0090;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+nav {
+    border-top: 2px solid #DA0090;
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 2px solid #A51F10;
+    /* margin: 0 4rem 0 4rem; */
+}
+
+nav ul {
+    list-style-type: none;
+    /* border: 3px dotted blue; */
+    padding: 0;
+    margin: 0;
+  }
+
+  nav li {
+    /* border: 2px dotted green; */
+    display: inline-block;
+    text-align: center;
+    padding: 0 1rem 0 1rem;
+
+  }
+
+  section {
+    padding: 2rem 0 2rem 0;
+  }
+
+  section img {
+    border-radius: 1rem;
+    margin-right: 1rem;
+  }
+
+  nav a {
+    color: #A51F10;
+    font-weight: bold;
+
+  }
+
+  .reality {
+    margin-bottom: 5rem;
+  }
+
+  article img {
+    float: left;
+  }
+
+  article:after {
+    content: "";
+    display: table;
+     clear: both;
+  }
+
+  .resize {
+    border: 3px solid black;
+    padding-right: 37rem;
+    margin-bottom: 1.5rem;
+  }
+
+  footer ul {
+    list-style: none;
+  }
+
+  footer li {
+    display: inline-block;
+    text-align: center;
+  }
+
+  footer p {
+    padding-left: 2.5rem;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #DA0090;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 0 4rem 0 4rem;
+    border-bottom: none;
+    border-top: 2px solid #A51F10;
+    border-left: none;
+    border-right: none;
+}

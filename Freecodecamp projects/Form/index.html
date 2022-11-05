@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label"
+          >Name
+          <input
+            id="name"
+            type="text"
+            placeholder="Enter your name"
+            name="Name"
+            required
+        /></label>
+        <label id="email-label"
+          >Email
+          <input
+            id="email"
+            type="email"
+            name="Email"
+            placeholder="Enter your Email"
+            required
+        /></label>
+        <label id="number-label"
+          >Age (optional)
+          <input
+            id="number"
+            type="number"
+            name="age"
+            min="10"
+            max="99"
+            placeholder="Age"
+          />
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>Would you recommend freeCodeCamp to a friend? </label>
+        <label
+          ><input
+            type="radio"
+            value="Definitely"
+            name="recommend"
+            type="checkbox"
+          />Definitely</label
+        >
+        <label
+          ><input type="radio" value="Maybe" name="recommend" />Maybe</label
+        >
+        <label
+          ><input type="radio" value="Not sure" name="recommend" />Not
+          sure</label
+        >
+      </fieldset>
+      <fieldset>
+        <label
+          >What is your favorite feature of freeCodeCamp?
+          <select id="dropdown">
+            <option value="">Select an option</option>
+            <option value="1">Challenges</option>
+            <option value="2">Projects</option>
+            <option value="3">Community</option>
+            <option value="4">Open Source</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label
+          >What would you like to see improved? (Check all that apply)</label
+        >
+        <label>
+          <input
+            type="checkbox"
+            name="terms"
+            class="inline"
+            value="Front-end Project"
+            required
+          />
+          Front-end Project</label
+        >
+        <label>
+          <input
+            type="checkbox"
+            name="terms"
+            class="inline"
+            value="Back-end Projects"
+            required
+          />
+          Back-end Projects</label
+        >
+        <label>
+          <input
+            type="checkbox"
+            name="terms"
+            class="inline"
+            value="Data Visualization"
+            required
+          />
+          Data Visualization</label
+        >
+        <label>
+          <input
+            type="checkbox"
+            name="terms"
+            class="inline"
+            value="Challenges"
+            required
+          />
+          Challenges</label
+        >
+        <label>
+          <input
+            type="checkbox"
+            name="terms"
+            class="inline"
+            value="Open Source Community"
+            required
+          />
+          Open Source Community</label
+        >
+        <label>
+          <input
+            type="checkbox"
+            name="terms"
+            class="inline"
+            value="Gitter help rooms"
+            required
+          />
+          Gitter help rooms</label
+        >
+        <label>
+          <input
+            type="checkbox"
+            name="terms"
+            class="inline"
+            value="Videos"
+            required
+          />
+          Videos</label
+        >
+        <label>
+          <input
+            type="checkbox"
+            name="terms"
+            class="inline"
+            value="City Meetups"
+            required
+          />
+          City Meetups</label
+        >
+        <label>
+          <input
+            type="checkbox"
+            name="terms"
+            class="inline"
+            value="Wiki"
+            required
+          />
+          Wiki</label
+        >
+        <label>
+          <input
+            type="checkbox"
+            name="terms"
+            class="inline"
+            value="Forum"
+            required
+          />
+          Forum</label
+        >
+        <label>
+          <input
+            type="checkbox"
+            name="terms"
+            class="inline"
+            value="Additional Courses"
+            required
+          />
+          Additional Courses</label
+        >
+        <label
+          >Any comments or suggestions?
+          <textarea
+            name="bio"
+            rows="3"
+            cols="30"
+            placeholder="Enter your comment here..."
+          ></textarea>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
